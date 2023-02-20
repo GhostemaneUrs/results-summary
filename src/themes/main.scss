@@ -1,0 +1,78 @@
+@use 'tailwindcss/base';
+@use 'tailwindcss/utilities';
+@use 'tailwindcss/components';
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+body {
+  margin: 0;
+  background-color: #ecf2ff;
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.container-1440 {
+  width: 100%;
+  padding: 1rem;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.button-gradient {
+  background-color: #303b59;
+  &:hover {
+    background: linear-gradient(
+      180deg,
+      #7755ff 0%,
+      #6943ff 0.01%,
+      #2f2ce9 100%
+    );
+  }
+}
+
+.linear-gradient-oval {
+  background: linear-gradient(
+    180deg,
+    #4d21c9 0%,
+    rgba(37, 33, 201, 0) 100%,
+    rgba(37, 33, 201, 0) 100%
+  );
+}
+
+.linear-gradient-rectangle-red {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95),
+      rgba(255, 255, 255, 0.95)
+    ),
+    #ff5555;
+}
+
+.linear-gradient-rectangle-blue {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95),
+      rgba(255, 255, 255, 0.95)
+    ),
+    #1125d6;
+}
+
+.linear-gradient-rectangle-green {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95),
+      rgba(255, 255, 255, 0.95)
+    ),
+    #00bb8f;
+}
+
+.linear-gradient-rectangle-yellow {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95),
+      rgba(255, 255, 255, 0.95)
+    ),
+    #ffb21e;
+}
+
+.linear-gradient-result {
+  background: linear-gradient(180deg, #7755ff 0%, #6943ff 0.01%, #2f2ce9 100%);
+}
