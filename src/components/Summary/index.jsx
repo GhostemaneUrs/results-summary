@@ -42,7 +42,7 @@ const Summary = () => {
   }, [])
 
   return (
-    <div className='flex flex-col md:flex-row bg-white min-w-[400px] max-w-[736px] md:min-w-[736px] min-h-[512px] rounded-[32px]'>
+    <div className='flex flex-col md:flex-row bg-white min-w-[350px] max-w-[736px] md:min-w-[736px] min-h-[512px] rounded-[32px]'>
       <div className='linear-gradient-result w-full md:max-w-[368px] flex flex-col items-center rounded-[32px] p-10'>
         <div className='mb-[35px]'>
           <h1 className='font-bold text-2xl text-light-lavender'>
